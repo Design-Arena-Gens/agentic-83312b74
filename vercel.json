@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "agentic-83312b74",
+  "builds": [
+    { "src": "next.config.js", "use": "@vercel/next" }
+  ],
+  "env": {
+    "JWT_SECRET": "change-this-in-vercel"
+  }
+}
